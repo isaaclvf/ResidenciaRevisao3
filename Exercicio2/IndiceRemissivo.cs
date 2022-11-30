@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using Exercicio4;
 
 namespace Exercicio2
 {
@@ -45,9 +46,9 @@ namespace Exercicio2
                 string palavra = item.Key.ToUpper();
                 string contagemStr = "(" + item.Value.Count().ToString() + ")";
 
-                List<int> linhas = item.Value; // TODO: Criar método para remover repetidos
+                List<int> linhasSemRepeticao = item.Value.RemoveRepetido();
 
-                string linhasStr = String.Join(", ", linhas);
+                string linhasStr = String.Join(", ", linhasSemRepeticao);
 
                 Console.WriteLine(palavra + " " + contagemStr + " " + linhasStr);
             }

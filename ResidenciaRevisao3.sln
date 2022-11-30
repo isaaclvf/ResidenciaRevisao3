@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicio1", "Exercicio1\Exercicio1.csproj", "{5C544804-D102-4ACF-8255-CD869973D985}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio2", "Exercicio2\Exercicio2.csproj", "{9875D58B-A71F-4E51-AE39-459A5B606483}"
+	ProjectSection(ProjectDependencies) = postProject
+		{604B495C-D693-45AC-8CA3-CFADA83B12DB} = {604B495C-D693-45AC-8CA3-CFADA83B12DB}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio3", "Exercicio3\Exercicio3.csproj", "{2678BCD3-D1D3-47ED-AB46-78A5EE7AEE44}"
 EndProject
